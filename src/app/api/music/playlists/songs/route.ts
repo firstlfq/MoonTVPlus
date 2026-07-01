@@ -7,6 +7,7 @@ import { db } from '@/lib/db';
 import { requireFeaturePermission } from '@/lib/permissions';
 
 export const runtime = 'nodejs';
+export const dynamic = 'force-dynamic';
 
 // GET - 获取歌单中的所有歌曲
 export async function GET(request: NextRequest) {

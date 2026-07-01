@@ -7,6 +7,7 @@ import { getConfig } from '@/lib/config';
 import { getTMDBVideoList, searchTMDBMulti } from '@/lib/tmdb.client';
 
 export const runtime = 'nodejs';
+export const dynamic = 'force-dynamic';
 
 function normalizeType(type: string | null): 'movie' | 'tv' | null {
   if (type === 'movie' || type === 'tv') return type;

@@ -4,6 +4,7 @@ import { extractSongmid, isMusicSource, lxPostJson, normalizeMusicQuality, norma
 import { badRequest } from '@/lib/music-v2-api';
 
 export const runtime = 'nodejs';
+export const dynamic = 'force-dynamic';
 
 const STREAM_URL_CACHE_TTL_MS = 10 * 60 * 1000;
 

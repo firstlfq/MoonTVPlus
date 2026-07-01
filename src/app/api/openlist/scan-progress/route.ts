@@ -7,6 +7,7 @@ import { requireFeaturePermission } from '@/lib/permissions';
 import { getScanTask } from '@/lib/scan-task';
 
 export const runtime = 'nodejs';
+export const dynamic = 'force-dynamic';
 
 /**
  * GET /api/openlist/scan-progress?taskId=xxx

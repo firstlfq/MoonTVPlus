@@ -6,6 +6,7 @@ import { getStorage } from '@/lib/db';
 import { revokeRefreshToken } from '@/lib/refresh-token';
 
 export const runtime = 'nodejs';
+export const dynamic = 'force-dynamic';
 
 export async function POST(request: NextRequest) {
   const authInfo = getAuthInfoFromCookie(request);

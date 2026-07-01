@@ -9,6 +9,7 @@ import { OpenListClient } from '@/lib/openlist.client';
 import { invalidateVideoInfoCache } from '@/lib/openlist-cache';
 
 export const runtime = 'nodejs';
+export const dynamic = 'force-dynamic';
 
 /**
  * POST /api/openlist/refresh-video

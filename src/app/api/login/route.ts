@@ -18,6 +18,7 @@ import {
 } from '@/lib/refresh-token';
 
 export const runtime = 'nodejs';
+export const dynamic = 'force-dynamic';
 
 // 读取存储类型环境变量，默认 localstorage
 const STORAGE_TYPE =

@@ -7,6 +7,7 @@ import {
 } from '@/lib/source-script';
 
 export const runtime = 'nodejs';
+export const dynamic = 'force-dynamic';
 
 /**
  * GET /api/source-script/play?key=xxx&sourceId=xxx&episodeIndex=0&playUrl=base64url&format=json

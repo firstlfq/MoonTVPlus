@@ -7,6 +7,7 @@ import { getConfig } from '@/lib/config';
 import { hasFeaturePermission } from '@/lib/permissions';
 
 export const runtime = 'nodejs';
+export const dynamic = 'force-dynamic';
 
 /**
  * 获取 Emby 客户端

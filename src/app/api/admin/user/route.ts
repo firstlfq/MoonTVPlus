@@ -10,6 +10,7 @@ import { sanitizeFeaturePermissions } from '@/lib/feature-permissions';
 import { revokeAllRefreshTokens } from '@/lib/refresh-token';
 
 export const runtime = 'nodejs';
+export const dynamic = 'force-dynamic';
 
 // 支持的操作类型
 

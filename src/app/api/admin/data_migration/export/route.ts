@@ -11,6 +11,7 @@ import { CURRENT_VERSION } from '@/lib/version';
 import { updateProgress, clearProgress } from '@/lib/data-migration-progress';
 
 export const runtime = 'nodejs';
+export const dynamic = 'force-dynamic';
 
 const gzipAsync = promisify(gzip);
 

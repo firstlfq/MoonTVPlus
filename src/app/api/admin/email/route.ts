@@ -7,6 +7,7 @@ import { getStorage } from '@/lib/db';
 import { EmailService } from '@/lib/email.service';
 
 export const runtime = 'nodejs';
+export const dynamic = 'force-dynamic';
 
 /**
  * GET - 获取邮件配置

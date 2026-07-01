@@ -7,6 +7,7 @@ import { getDuanjuSources, isDuanjuTypeName } from '@/lib/duanju';
 import { yellowWords } from '@/lib/yellow';
 
 export const runtime = 'nodejs';
+export const dynamic = 'force-dynamic';
 
 interface CmsClassResponse {
   class?: Array<{

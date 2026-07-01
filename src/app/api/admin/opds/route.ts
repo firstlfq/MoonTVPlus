@@ -7,6 +7,7 @@ import { legadoClient } from '@/lib/legado.client';
 import { opdsClient } from '@/lib/opds.client';
 
 export const runtime = 'nodejs';
+export const dynamic = 'force-dynamic';
 
 interface TestSourceInput {
   id?: string;

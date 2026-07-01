@@ -8,6 +8,7 @@ import { NETDISK_MOBILE_SOURCE } from '@/lib/netdisk/source';
 import { hasFeaturePermission } from '@/lib/permissions';
 
 export const runtime = 'nodejs';
+export const dynamic = 'force-dynamic';
 
 export async function POST(request: NextRequest) {
   try {

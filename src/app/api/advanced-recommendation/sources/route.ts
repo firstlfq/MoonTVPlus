@@ -4,6 +4,7 @@ import { getAuthInfoFromCookie } from '@/lib/auth';
 import { listEnabledSourceScripts } from '@/lib/source-script';
 
 export const runtime = 'nodejs';
+export const dynamic = 'force-dynamic';
 
 export async function GET(request: NextRequest) {
   const authInfo = getAuthInfoFromCookie(request);

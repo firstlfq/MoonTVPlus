@@ -8,6 +8,7 @@ import { db } from '@/lib/db';
 import { XiaoyaClient } from '@/lib/xiaoya.client';
 
 export const runtime = 'nodejs';
+export const dynamic = 'force-dynamic';
 
 /**
  * POST /api/admin/xiaoya

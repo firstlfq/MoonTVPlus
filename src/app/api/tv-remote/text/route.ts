@@ -7,6 +7,7 @@ import type { TVRemoteTextCommand } from '@/lib/tv-remote-types';
 const { sendTVRemoteCommand } = require('@/lib/tv-remote-hub');
 
 export const runtime = 'nodejs';
+export const dynamic = 'force-dynamic';
 
 export async function POST(request: NextRequest) {
   if (!isTVModeEnabled()) {

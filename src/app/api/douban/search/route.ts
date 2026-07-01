@@ -3,6 +3,7 @@ import { NextRequest, NextResponse } from 'next/server';
 import { fetchDoubanData } from '@/lib/douban';
 
 export const runtime = 'nodejs';
+export const dynamic = 'force-dynamic';
 
 interface DoubanSearchResult {
   id: string;

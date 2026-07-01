@@ -4,6 +4,7 @@ import { generateAIComments, AIComment } from '@/lib/ai-comment-generator';
 import { getConfig } from '@/lib/config';
 
 export const runtime = 'nodejs';
+export const dynamic = 'force-dynamic';
 
 interface AICommentsResponse {
   comments: AIComment[];

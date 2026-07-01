@@ -9,6 +9,7 @@ import { EmbyClient } from '@/lib/emby.client';
 import { clearEmbyCache } from '@/lib/emby-cache';
 
 export const runtime = 'nodejs';
+export const dynamic = 'force-dynamic';
 
 /**
  * POST /api/admin/emby

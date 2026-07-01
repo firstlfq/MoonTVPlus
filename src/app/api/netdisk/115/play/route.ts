@@ -6,6 +6,7 @@ import { getPan115NetdiskSession, refreshPan115NetdiskSession } from '@/lib/netd
 import { resolvePan115Session } from '@/lib/netdisk/pan115-session-resolver';
 
 export const runtime = 'nodejs';
+export const dynamic = 'force-dynamic';
 
 export async function GET(request: NextRequest) {
   try {

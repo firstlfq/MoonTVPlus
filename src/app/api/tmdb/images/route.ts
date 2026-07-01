@@ -7,6 +7,7 @@ import { getConfig } from '@/lib/config';
 import { getTMDBImages } from '@/lib/tmdb.client';
 
 export const runtime = 'nodejs';
+export const dynamic = 'force-dynamic';
 
 /**
  * GET /api/tmdb/images?id=xxx&type=movie|tv&page=1&pageSize=24

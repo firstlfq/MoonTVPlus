@@ -7,6 +7,7 @@ import { getConfig } from '@/lib/config';
 import { getTMDBMovieDetails, getTMDBTVDetails } from '@/lib/tmdb.client';
 
 export const runtime = 'nodejs';
+export const dynamic = 'force-dynamic';
 
 /**
  * GET /api/tmdb/detail?id=xxx&type=movie|tv

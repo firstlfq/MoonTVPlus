@@ -12,6 +12,7 @@ import {
 } from '@/lib/refresh-token';
 
 export const runtime = 'nodejs';
+export const dynamic = 'force-dynamic';
 
 // 获取所有设备
 export async function GET(request: NextRequest) {

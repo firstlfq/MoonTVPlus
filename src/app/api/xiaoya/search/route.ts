@@ -7,6 +7,7 @@ import { getConfig } from '@/lib/config';
 import { requireFeaturePermission } from '@/lib/permissions';
 
 export const runtime = 'nodejs';
+export const dynamic = 'force-dynamic';
 
 /**
  * GET /api/xiaoya/search?keyword=<keyword>&type=<type>

@@ -4,6 +4,7 @@ import { isMusicSource, lxGetJson, unwrapLxArray } from '@/lib/music-v2';
 import { badRequest, internalError } from '@/lib/music-v2-api';
 
 export const runtime = 'nodejs';
+export const dynamic = 'force-dynamic';
 
 export async function GET(request: NextRequest) {
   try {

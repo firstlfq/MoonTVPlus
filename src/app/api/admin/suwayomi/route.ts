@@ -5,6 +5,7 @@ import { db } from '@/lib/db';
 import { SuwayomiClient } from '@/lib/suwayomi.client';
 
 export const runtime = 'nodejs';
+export const dynamic = 'force-dynamic';
 
 export async function POST(request: NextRequest) {
   try {

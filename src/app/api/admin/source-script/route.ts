@@ -15,6 +15,7 @@ import {
 } from '@/lib/source-script';
 
 export const runtime = 'nodejs';
+export const dynamic = 'force-dynamic';
 
 async function assertAdmin(request: NextRequest) {
   const storageType = process.env.NEXT_PUBLIC_STORAGE_TYPE || 'localstorage';

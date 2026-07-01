@@ -5,6 +5,7 @@ import { db } from '@/lib/db';
 import { generateTvboxToken } from '@/lib/tvbox-token';
 
 export const runtime = 'nodejs';
+export const dynamic = 'force-dynamic';
 
 /**
  * 获取用户的TVBox订阅token

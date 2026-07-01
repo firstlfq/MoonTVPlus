@@ -8,6 +8,7 @@ import { requireFeaturePermission } from '@/lib/permissions';
 import { OpenListClient } from '@/lib/openlist.client';
 
 export const runtime = 'nodejs';
+export const dynamic = 'force-dynamic';
 
 /**
  * 使用 HEAD 请求跟随重定向获取最终 URL（直连方法 - 降级使用）

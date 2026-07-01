@@ -7,6 +7,7 @@ import { EmbyClient } from '@/lib/emby.client';
 import { hasFeaturePermission } from '@/lib/permissions';
 
 export const runtime = 'nodejs';
+export const dynamic = 'force-dynamic';
 
 /**
  * Emby CMS 代理接口（动态路由）

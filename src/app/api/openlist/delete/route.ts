@@ -13,6 +13,7 @@ import {
 } from '@/lib/openlist-cache';
 
 export const runtime = 'nodejs';
+export const dynamic = 'force-dynamic';
 
 /**
  * POST /api/openlist/delete

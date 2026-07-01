@@ -4,6 +4,7 @@ import { NextRequest, NextResponse } from 'next/server';
 import { fetchDoubanWithVerification } from '@/lib/douban-anti-crawler';
 
 export const runtime = 'nodejs';
+export const dynamic = 'force-dynamic';
 
 interface DoubanComment {
   id: string;

@@ -8,6 +8,7 @@ import { OpenListClient } from '@/lib/openlist.client';
 import { hasFeaturePermission } from '@/lib/permissions';
 
 export const runtime = 'nodejs';
+export const dynamic = 'force-dynamic';
 
 /**
  * GET /api/openlist/play/{token}?folder=xxx&fileName=xxx

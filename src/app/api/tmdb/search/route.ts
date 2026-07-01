@@ -7,6 +7,7 @@ import { getConfig } from '@/lib/config';
 import { searchTMDBMulti } from '@/lib/tmdb.client';
 
 export const runtime = 'nodejs';
+export const dynamic = 'force-dynamic';
 
 /**
  * GET /api/tmdb/search?query=xxx

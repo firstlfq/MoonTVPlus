@@ -5,6 +5,7 @@ import { MusicV2HistoryRecord, normalizeSong } from '@/lib/music-v2';
 import { badRequest, getMusicV2Username, internalError, unauthorized } from '@/lib/music-v2-api';
 
 export const runtime = 'nodejs';
+export const dynamic = 'force-dynamic';
 
 function toHistoryRecord(input: any, previous?: MusicV2HistoryRecord): MusicV2HistoryRecord {
   const song = normalizeSong(input.song || input);

@@ -5,6 +5,7 @@ import { MusicV2PlaylistItem, normalizeSong } from '@/lib/music-v2';
 import { badRequest, getMusicV2Username, internalError, unauthorized } from '@/lib/music-v2-api';
 
 export const runtime = 'nodejs';
+export const dynamic = 'force-dynamic';
 
 export async function GET(request: NextRequest, { params }: { params: Promise<{ playlistId: string }> }) {
   const username = await getMusicV2Username(request);

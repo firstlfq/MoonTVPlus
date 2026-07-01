@@ -7,6 +7,7 @@ import { embyManager } from '@/lib/emby-manager';
 import { requireFeaturePermission } from '@/lib/permissions';
 
 export const runtime = 'nodejs';
+export const dynamic = 'force-dynamic';
 
 export async function GET(request: NextRequest) {
   try {

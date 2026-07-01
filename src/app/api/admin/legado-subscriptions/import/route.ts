@@ -6,6 +6,7 @@ import { db } from '@/lib/db';
 import { legadoSubscriptionStore } from '@/lib/legado/subscription-store';
 
 export const runtime = 'nodejs';
+export const dynamic = 'force-dynamic';
 
 async function ensureAdmin(request: NextRequest) {
   const authInfo = getAuthInfoFromCookie(request);

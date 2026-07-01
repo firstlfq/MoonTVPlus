@@ -2,6 +2,7 @@ import { NextResponse } from 'next/server';
 import { validateProxyUrlServerSide } from '@/lib/server/ssrf';
 
 export const runtime = 'nodejs';
+export const dynamic = 'force-dynamic';
 
 // 视频代理接口，支持Range请求
 export async function GET(request: Request) {

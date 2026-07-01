@@ -3,6 +3,7 @@ import { NextRequest, NextResponse } from 'next/server';
 import { getQrLoginSession, saveQrLoginSession } from '@/lib/qr-login/store';
 
 export const runtime = 'nodejs';
+export const dynamic = 'force-dynamic';
 
 export async function GET(request: NextRequest) {
   const token = new URL(request.url).searchParams.get('token');

@@ -11,6 +11,7 @@ import {
 import { hasFeaturePermission } from '@/lib/permissions';
 
 export const runtime = 'nodejs';
+export const dynamic = 'force-dynamic';
 
 const downloadTools = ['aria2', 'Transmission', 'qBittorrent'] as const;
 type DownloadTool = typeof downloadTools[number];

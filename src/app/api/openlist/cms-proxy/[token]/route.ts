@@ -6,6 +6,7 @@ import { getConfig } from '@/lib/config';
 import { hasFeaturePermission } from '@/lib/permissions';
 
 export const runtime = 'nodejs';
+export const dynamic = 'force-dynamic';
 
 /**
  * OpenList CMS 代理接口（动态路由）

@@ -9,6 +9,7 @@ import {
 } from '@/lib/web-push';
 
 export const runtime = 'nodejs';
+export const dynamic = 'force-dynamic';
 
 function extractSubscriptionKeys(subscription: any) {
   const p256dh = subscription?.keys?.p256dh || subscription?.toJSON?.()?.keys?.p256dh;

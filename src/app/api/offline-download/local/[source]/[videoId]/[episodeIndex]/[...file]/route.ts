@@ -1,3 +1,4 @@
+export const dynamic = 'force-dynamic';
 /**
  * 本地下载视频播放代理 API - 动态路由版本
  * 路径格式: /api/offline-download/local/[source]/[videoId]/[episodeIndex]/[file]

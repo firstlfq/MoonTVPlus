@@ -6,6 +6,7 @@ import { getAuthInfoFromCookie } from '@/lib/auth';
 import { getProgress } from '@/lib/data-migration-progress';
 
 export const runtime = 'nodejs';
+export const dynamic = 'force-dynamic';
 
 export async function GET(req: NextRequest) {
   // 验证身份和权限

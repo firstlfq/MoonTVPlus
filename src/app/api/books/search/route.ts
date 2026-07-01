@@ -5,6 +5,7 @@ import { bookProvider } from '@/lib/book-provider';
 import { getAuthorizedBooksUsername } from '../_utils';
 
 export const runtime = 'nodejs';
+export const dynamic = 'force-dynamic';
 
 export async function GET(request: NextRequest) {
   const username = await getAuthorizedBooksUsername(request);

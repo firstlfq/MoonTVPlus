@@ -7,6 +7,7 @@ import { listTianyiShareVideos } from '@/lib/netdisk/tianyi.client';
 import { createTianyiNetdiskSession, getTianyiNetdiskSession, parseTianyiNetdiskId, refreshTianyiNetdiskSession } from '@/lib/netdisk/tianyi-session-cache';
 
 export const runtime = 'nodejs';
+export const dynamic = 'force-dynamic';
 
 export async function GET(request: NextRequest) {
   try {

@@ -8,6 +8,7 @@ import { getMagnetBaseUrl, universalMagnetFetch } from '@/lib/magnet.client';
 import { hasFeaturePermission } from '@/lib/permissions';
 
 export const runtime = 'nodejs';
+export const dynamic = 'force-dynamic';
 
 const pickText = (value: any): string => {
   if (value === undefined || value === null) return '';

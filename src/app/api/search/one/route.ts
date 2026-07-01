@@ -12,6 +12,7 @@ import {
 import { yellowWords } from '@/lib/yellow';
 
 export const runtime = 'nodejs';
+export const dynamic = 'force-dynamic';
 
 // OrionTV 兼容接口
 export async function GET(request: NextRequest) {

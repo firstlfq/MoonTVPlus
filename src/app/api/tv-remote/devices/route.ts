@@ -6,6 +6,7 @@ import { isTVModeEnabled } from '@/lib/tv-mode';
 const { listTVRemoteDevices } = require('@/lib/tv-remote-hub');
 
 export const runtime = 'nodejs';
+export const dynamic = 'force-dynamic';
 
 export async function GET(request: NextRequest) {
   if (!isTVModeEnabled()) {

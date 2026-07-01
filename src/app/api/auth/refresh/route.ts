@@ -7,6 +7,7 @@ import { refreshAccessToken } from '@/lib/middleware-auth';
 import { TOKEN_CONFIG } from '@/lib/refresh-token';
 
 export const runtime = 'nodejs';
+export const dynamic = 'force-dynamic';
 
 const STORAGE_TYPE =
   (process.env.NEXT_PUBLIC_STORAGE_TYPE as

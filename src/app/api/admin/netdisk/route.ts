@@ -29,6 +29,7 @@ import {
 } from '@/lib/netdisk/uc.client';
 
 export const runtime = 'nodejs';
+export const dynamic = 'force-dynamic';
 
 function requireOwner(username: string | undefined) {
   return username === process.env.USERNAME;

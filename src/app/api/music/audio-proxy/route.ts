@@ -7,6 +7,7 @@ import { requireFeaturePermission } from '@/lib/permissions';
 import { OpenListClient } from '@/lib/openlist.client';
 
 export const runtime = 'nodejs';
+export const dynamic = 'force-dynamic';
 
 // 获取 OpenList 客户端
 async function getOpenListClient(): Promise<OpenListClient | null> {

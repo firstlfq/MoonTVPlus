@@ -4,6 +4,7 @@ import { getAuthInfoFromCookie } from '@/lib/auth';
 import { getUCNetdiskSession, refreshUCNetdiskSession } from '@/lib/netdisk/uc-session-cache';
 
 export const runtime = 'nodejs';
+export const dynamic = 'force-dynamic';
 
 export async function GET(request: NextRequest) {
   try {

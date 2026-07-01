@@ -5,6 +5,7 @@ import { API_CONFIG, getAvailableApiSites, getConfig } from '@/lib/config';
 import { yellowWords } from '@/lib/yellow';
 
 export const runtime = 'nodejs';
+export const dynamic = 'force-dynamic';
 
 interface CmsClassResponse {
   class?: Array<{

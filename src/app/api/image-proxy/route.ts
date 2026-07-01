@@ -7,6 +7,7 @@ import { NextResponse } from 'next/server';
 import { getConfig } from '@/lib/config';
 
 export const runtime = 'nodejs';
+export const dynamic = 'force-dynamic';
 
 function isCloudflareEnvironment(): boolean {
   return (

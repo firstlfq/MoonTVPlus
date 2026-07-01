@@ -8,6 +8,7 @@ import { requireFeaturePermission } from '@/lib/permissions';
 import { XiaoyaClient } from '@/lib/xiaoya.client';
 
 export const runtime = 'nodejs';
+export const dynamic = 'force-dynamic';
 
 /**
  * GET /api/xiaoya/browse?path=<path>

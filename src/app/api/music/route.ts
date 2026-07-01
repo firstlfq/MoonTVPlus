@@ -7,6 +7,7 @@ import { requireFeaturePermission } from '@/lib/permissions';
 import { OpenListClient } from '@/lib/openlist.client';
 
 export const runtime = 'nodejs';
+export const dynamic = 'force-dynamic';
 
 // 检测是否为 Cloudflare 环境
 const isCloudflare = process.env.CF_PAGES === '1' || process.env.BUILD_TARGET === 'cloudflare';

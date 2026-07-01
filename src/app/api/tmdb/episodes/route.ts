@@ -7,6 +7,7 @@ import { getConfig } from '@/lib/config';
 import { getTVSeasonDetails } from '@/lib/tmdb.search';
 
 export const runtime = 'nodejs';
+export const dynamic = 'force-dynamic';
 
 /**
  * GET /api/tmdb/episodes?id=xxx&season=xxx

@@ -8,6 +8,7 @@ import { requireFeaturePermission } from '@/lib/permissions';
 import { startOpenListRefresh } from '@/lib/openlist-refresh';
 
 export const runtime = 'nodejs';
+export const dynamic = 'force-dynamic';
 
 /**
  * POST /api/openlist/refresh

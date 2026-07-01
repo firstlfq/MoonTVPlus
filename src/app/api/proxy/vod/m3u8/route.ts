@@ -8,6 +8,7 @@ import { validateProxyUrlServerSide } from '@/lib/server/ssrf';
 import { buildProxyM3u8Headers, buildProxyStreamHeaders } from '@/lib/server/proxy-headers';
 
 export const runtime = 'nodejs';
+export const dynamic = 'force-dynamic';
 
 export async function GET(request: Request) {
   const { searchParams } = new URL(request.url);

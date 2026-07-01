@@ -6,6 +6,7 @@ import { MangaShelfItem } from '@/lib/manga.types';
 import { getAuthorizedUsername } from '../_utils';
 
 export const runtime = 'nodejs';
+export const dynamic = 'force-dynamic';
 
 export async function GET(request: NextRequest) {
   const username = await getAuthorizedUsername(request);

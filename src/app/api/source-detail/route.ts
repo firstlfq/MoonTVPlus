@@ -69,6 +69,7 @@ import {
 } from '@/lib/source-script';
 
 export const runtime = 'nodejs';
+export const dynamic = 'force-dynamic';
 
 function formatNetdiskEpisodeTitle(
   parsed: {

@@ -6,6 +6,7 @@ import { getStorage } from '@/lib/db';
 import { MovieRequest } from '@/lib/types';
 
 export const runtime = 'nodejs';
+export const dynamic = 'force-dynamic';
 
 // GET: 获取求片列表
 export async function GET(request: NextRequest) {

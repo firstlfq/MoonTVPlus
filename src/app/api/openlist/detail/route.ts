@@ -14,6 +14,7 @@ import {
 import { parseVideoFileName } from '@/lib/video-parser';
 
 export const runtime = 'nodejs';
+export const dynamic = 'force-dynamic';
 
 /**
  * GET /api/openlist/detail?folder=xxx
