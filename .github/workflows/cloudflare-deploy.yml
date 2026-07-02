@@ -150,6 +150,15 @@ jobs:
       - name: Install Wrangler
         run: pnpm add -g wrangler@4.60.0
 
+      - name: Register workers.dev subdomain
+        run: |
+          echo "Registering workers.dev subdomain..."
+          curl -s -X PUT \
+            "https://api.cloudflare.com/client/v4/accounts/${{ secrets.CLOUDFLARE_ACCOUNT_ID }}/workers/subdomain" \
+            -H "Authorization: Bearer ${{ secrets.CLOUDFLARE_API_TOKEN }}" \
+            -H "Content-Type: application/json" \
+            -d '{"subdomain": "moontv-plus"}' || echo "Subdomain may already exist, continuing..."
+
       - name: Run D1 Database Migrations
         run: |
           STORAGE_TYPE="${{ secrets.NEXT_PUBLIC_STORAGE_TYPE }}"
